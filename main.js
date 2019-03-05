@@ -22,4 +22,9 @@ if (num < 21) {
 console.log(iAmThursty(55));
 printToDom('thirsty', iAmThursty(67));
 
+
+const quote = 'Winter Is Coming';
+console.log(quote.indexOf('is')); // returns 7 (place it starts)
+console.log(quote.indexOf('Roar')); //returns -1 bc dont exist
+
 //bonus = printToDom function
